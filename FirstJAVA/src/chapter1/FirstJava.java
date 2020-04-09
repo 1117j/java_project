@@ -5,9 +5,9 @@ public class FirstJava {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("Hello~~!! JAVA~~!");
-		System.out.println("Hello world!");
+		// 이것은 주석이다. 
+		System.out.println("집가고싶다");
 
+		
 	}
-
 }
