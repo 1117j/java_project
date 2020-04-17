@@ -12,9 +12,7 @@ public class ex07 {
 		
 		boolean poweron = false;
 		if (poweron == false) {
-			System.out.println("true");
-			
+			System.out.println("true");		
 		}
 	}
-
 }
