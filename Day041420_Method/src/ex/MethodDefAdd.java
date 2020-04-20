@@ -4,8 +4,8 @@ public class MethodDefAdd {
 	public static void main(String[] args) {
 		//스태틱이 정의되어 있는 메소드이다.
 		System.out.println("Start");
-		hiEveryone(10,158.10);
-		hiEveryone(20,160);ㅣ
+		hiEveryone(10,158.1);
+		hiEveryone(20,160);
 		hiEveryone(30,181);
 		hiEveryone(40,182);
 		hiEveryone(50,185);
@@ -15,7 +15,8 @@ public class MethodDefAdd {
 
 	//인사말 출력, 나이받기, 나이를 출력하는 메서드
 	public static void hiEveryone(int age, double height) {
-		System.out.println("Hello World!");
+		System.out.println("안녕하세요");
+		
 		System.out.println("제 나이는"+ age + "세 입니다." +"저의 키는"+ height+ "cm입니다.");
 		
 	}

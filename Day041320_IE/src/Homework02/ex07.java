@@ -16,3 +16,6 @@ public class ex07 {
 		}
 	}
 }
+
+
+// if !( powerOn == True) 

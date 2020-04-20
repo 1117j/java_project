@@ -14,3 +14,4 @@ public class ex05 {
 		}
 	}
 }
+		//(ch >= 'a' && ch <= 'z') || (ch >='A' && ch <= 'Z')
