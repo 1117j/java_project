@@ -5,12 +5,14 @@ public class Method01 {
 			//이 메서드를 호출하는 메인메서드를 정의해보자. 단 나눗셈은 몫과 나머지 각각 출력
 	//1. 매개변수 : 정수 2개, 2. 처리: 사칙연산 결과출력 -> 반환 x으로 void 사용!
 	
+	
+	
 	 	int add = 0;
 	 	int sub = 0;
 	 	int mul = 0;
 	 	int div = 0;
 	 	int bal = 0;
-	 	
+	 		
 	 	void cal(int a, int b) {
 	 		add = a + b;
 	 		mul = a * b;
