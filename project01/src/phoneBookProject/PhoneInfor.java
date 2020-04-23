@@ -1,4 +1,4 @@
-package project01;
+package phoneBookProject;
 
 public class PhoneInfor {
 /* Version 0.1

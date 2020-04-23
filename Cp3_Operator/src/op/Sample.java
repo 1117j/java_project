@@ -2,13 +2,17 @@ package op;
 
 public class Sample {
 	public static void main(String[]args) {
-		int num = 120;
 		
-		if(num>0){
-			if((num%2)==0) {
-				System.out.println("양수이면서 짝수이다");
-			}
-	}	
+		int gScore = 150;
+		
+		int lastScore1 = gScore++;
+		System.out.println(lastScore1);
+		
+		int lastScore2 = gScore--;
+		System.out.println(lastScore2);
+		
+		int lastScore3= gScore;
+		System.out.println(lastScore3);
+		
 	}
-}
-
+}	

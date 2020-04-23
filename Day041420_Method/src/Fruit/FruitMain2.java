@@ -5,7 +5,7 @@ public class FruitMain2 {
 	public static void main(String[] args) {
 		
 		//seller1 객체 생성
-		FruitSeller seller1 = new FruitSeller(30.0,1000);
+		FruitSeller seller1 = new FruitSeller(30,0,1000);
 		//seller2 객체 생성
 		FruitSeller seller2 = new FruitSeller(10,0,1000);
 		//seller3 객체 생성
@@ -22,6 +22,13 @@ public class FruitMain2 {
 		buyer.buyApple(seller3, 3000);
 		
 		System.out.println("판매자 1의 현재 현황");
+		seller1.showResult();
+		
+		System.out.println("판매자 1의 현재 현황");
+		seller2.showResult();
+		
+		System.out.println("판매자 1의 현재 현황");
+		seller3.showResult();
 }
 
 }

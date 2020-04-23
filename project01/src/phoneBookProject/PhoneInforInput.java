@@ -1,4 +1,4 @@
-package project01;
+package phoneBookProject;
 
 import java.util.Scanner;
 /* Version 0.2

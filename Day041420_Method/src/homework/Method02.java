@@ -19,7 +19,7 @@ public class Method02 {
 	else;
 	System.out.println(Abs2);
 	}
-	
+
 	//혹은 간단하게 System.out.println(a+"의 절대값 = "+Math.abs(a));하면 된다...ㅠㅠ
 	
 

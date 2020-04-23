@@ -10,6 +10,8 @@ public class ex01 {
 
  // 위의 두 매소드는 인자로 전달되는 배열의 길이에 상관없이 동작하도록 정의. 두 매소드 실행을 확인인하기 위한 main 메소드 정의.
  // int형 배열에 채워질 정수는 프로그램 사용자로부터 입력 받고, 배열의 길이는 임의로 결정
+	
+	
  public static int miniValue(int[] arr) {
   int min=arr[0];
   for(int i=1; i<arr.length; i++) {
