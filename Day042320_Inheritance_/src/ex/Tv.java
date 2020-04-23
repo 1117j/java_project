@@ -7,7 +7,6 @@ public class Tv {
 	
 	void power() {
 		power = !power;
-		
 	}
 	
 	void ChannelUp() {
