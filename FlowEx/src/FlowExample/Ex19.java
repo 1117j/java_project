@@ -1,16 +1,31 @@
 package FlowExample;
 
+import java.util.Scanner;
+
 public class Ex19 {
 
 	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		for(int i=0; i <1000000000; i++) {
-			;
+		Scanner scan = new Scanner(System.in);
+		int  score = 11;
+		
+		while(score < 0) {
+			System.out.println("점수를 입력하시오");
+			score = scan.nextInt();
+					
+			
+			if(score >=90 ) {
+				System.out.println("수");
+			}else if (score >=90 ) {
+				System.out.println("우");
+			}else if (score >=80 ) {
+				System.out.println("ㅁ");
+			}else if (score >=70 ) {
+				System.out.println("ㅇ");
+			}else {
+				System.out.println("ㄱ");
+			}
+			
+		
 		}
-		long endTime = System.currentTimeMillis();
-		
-		System.out.println("시작시간"+startTime);
-		
 	}
-
 }

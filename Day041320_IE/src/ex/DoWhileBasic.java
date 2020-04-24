@@ -6,10 +6,15 @@ public class DoWhileBasic {
 		
 		int num = 6;
 		do {
-			System.out.println("I like Java"+num);
+			System.out.println("I like Java ");
 			num++;
 		}while (num<6);
+		
+		
+		System.out.println("=======================");
+		
+		
+	
+		}
+   }
 
-	}
-
-}
