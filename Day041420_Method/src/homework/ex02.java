@@ -13,10 +13,7 @@ public class ex02 {
 	static void abs(int a, int b) {
 		System.out.println(a>=0? a: -a);
 		System.out.println(b>=0? b: -b);
-	}
-	
-	
-			
+	}		
 		}
 	
 

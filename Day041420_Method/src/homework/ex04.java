@@ -8,35 +8,26 @@ package homework;
 
 public class ex04 {
 	
-	public static void main(String[] args) {
-		for(int j = 1; j < 101; j++) {
-			if(prime(j)) {
-				System.out.println(j);
-			}
+	boolean prime(int num) {
+		boolean result = true;
+		int count = 0;
+		 // 1~100 사이에 나누어 떨어지는 숫자가 있는지 for문으로 확인
+		for(int i = 1; i <=100; i++){
+		if(num%i==0)
+		count += 1;
+		if (count>2) //1과 자기자신 외 더 나눌 수 있다면(분할자가 2개보다 많음) 소수가 아님
+		result = false;
 		}
-	}
+		return result;
+		}
+	
 
-		
+		public static void main(String[] args) { 
+		ex04 primeNum = new ex04();
 	
-	
- static boolean prime(int a) {
-	 boolean result = true;
-	 if(a <= 1) {
-		 result = false;
-	 }      
-	 for(int i = a - 1; i > 1; i--) {
-		 if(a%i ==0) {
-			 result = false;
-			 break;
+		for(int i=1; i<=100; i++) {
+		if (primeNum.prime(i)==true) {
+		System.out.println(i+"은 소수 입니다.");}
 		}
-	 }
-	 return result; 
-	 
- }
-	
-	
-	
-	
-	
-	
+	}	
 }
