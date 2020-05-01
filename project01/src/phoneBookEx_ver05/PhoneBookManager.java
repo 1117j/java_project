@@ -71,7 +71,7 @@ public class PhoneBookManager {
 				// 2.2.2 기본 클래스로 인스턴스 생성
 				info = new PhoneInfo(name, phoneNumber, addr, email);
 				break;
-			case 2:
+			case MenuNum.UNIV:
 				System.out.println("전공(학과)를 입력해주세요.");
 				String major = kb.nextLine();
 				System.out.println("학년 정보를 입력해주세요.");
@@ -80,7 +80,7 @@ public class PhoneBookManager {
 				// 2.2.3 대학 클래스로 인스턴스 생성			
 				info = new PhoneUnivInfo(name, phoneNumber, addr, email, major, grade);
 				break;
-			case 3:
+			case MenuNum.COMPANY:
 				System.out.println("회사의 이름을 입력해주세요.");
 				String company = kb.nextLine();
 				System.out.println("부서의 이름을 입력해주세요.");
@@ -91,7 +91,7 @@ public class PhoneBookManager {
 				// 2.2.4 회사 클래스로 인스턴스 생성
 				info = new PhoneCompanyInfo(name, phoneNumber, addr, email, company, dept, job);
 				break;
-			case 4:
+			case MenuNum.CAFE:
 				System.out.println("동호회 이름을 입력해주세요.");
 				String cafeName = kb.nextLine();
 				System.out.println("닉네임을 입력해주세요.");

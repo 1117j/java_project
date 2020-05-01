@@ -3,11 +3,9 @@ package phoneBookEx_ver05;
 /*2020.04.29
 수정내용: 인터페이스 구현으로 메서드 오버라이딩 생략
  		PhoneInfo 클래스-> 추상클래스*/
- 		
-
 
 public abstract class PhoneInfo implements Info {
-// abstract : 추상 키워드 
+	// abstract : 추상 키워드 
 	String name;
 	String phoneNum;
 	String addr;
