@@ -18,11 +18,10 @@ public class PhoneCafeInfo extends PhoneInfo {
 	}
 
 	@Override
-	void showAllInfo() {
-		super.showAllInfo();
-		System.out.println("동호회 이름 : " + cafeName);
-		System.out.println("닉네임 : " + nickName);
+	public void ShowData() {
+		showBasicInfo();
+		System.out.println("동호회명 :"+cafeName);
+		System.out.println("닉네임 : "+nickName);
+	
 	}
-	
-	
 }

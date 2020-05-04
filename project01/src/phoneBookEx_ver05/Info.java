@@ -1,9 +1,7 @@
 package phoneBookEx_ver05;
 
-public class Info {
+public interface Info{
 	
-	void showAllInfo(){
-		
-	}
-
+	void ShowData();
+	//public abstract는 생략
 }
